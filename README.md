@@ -1,1 +1,1 @@
-"# Discord-HowTOCreate-Embed" 
+"# Discord-HowToCreate-Embed" 
