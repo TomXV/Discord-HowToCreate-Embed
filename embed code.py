@@ -11,14 +11,6 @@ async def on_ready():
     print("bot is ready.")
 
 
-@client.command(pass_content=True)
-async def clear(ctx):
-    messages = []
-    async for message in ctx.channel.history(limit=int(100)):
-        message.append(message)
-    await ctx.message.delete(messages)
-
-
 @client.command()
 async def displayembed(ctx):
     embed = discord.Embed(
